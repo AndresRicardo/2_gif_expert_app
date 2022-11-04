@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.card{
+    background-color: white;
+    border: 1px solid rgb(97, 32, 158);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 0px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.imgContainer{
+    width: 100%;
+    margin: 0px;
+    height: fit-content;
+    /* max-height: 150px; */
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.description{
+    background-color: white;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+}
